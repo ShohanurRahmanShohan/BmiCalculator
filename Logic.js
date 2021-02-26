@@ -1,6 +1,6 @@
 function cal(){
-   var  hight = prompt (" your hight in inches" ) ; 
-   var weight= prompt (" your weight in kg");
+   var  hight = prompt (" Your hight in inches ?" ) ; 
+   var weight= prompt (" Your weight in kg ?");
    var c = hight/12
    var i = c/3.2808399
    var h = i*i
