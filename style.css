@@ -1,0 +1,80 @@
+.nav {
+  text-align: center;
+  color: rgb(132,234,236);
+ font-size:8vw ;
+ background-color: gray;
+ width: 60%;
+ margin: auto;
+ min-width : 320px;
+ font-family: 'Abril Fatface', cursive;
+ letter-spacing: 3px;
+}
+.main {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  min-width: 320px;
+}
+.start {
+  justify-content: center;
+  margin-top: 20px;
+  border: none;
+  color: green;
+  background-color: rgb(132,234,236);
+  padding:10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.start2 {
+  justify-content: center;
+  margin-top: 20px;
+  border: none;
+  color: red;
+  background-color: rgb(132,234,236);
+  padding:10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.ans {
+  background-color: gray;
+  height: 20vh;
+  width: 100%;
+  min-width :320px;
+  margin: auto;
+  color:  rgb(132,234,236);
+  text-transform: uppercase;
+}
+.footer{
+  justify-content: center;
+  text-align: center;
+}
+.fb {
+  margin-top: 10px;
+  background-color: rgb(132,234,236) ;
+  height: 30px;
+  font-family: 'Abril Fatface', cursive;
+  color: red;
+}
+#ff {
+  height: 20px;
+  width: 70px;
+  background-color: gray ;
+  margin:auto;
+  margin-top: 10px;
+}
+footer {
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  min-width: 320px;
+  background-color: Black;
+  color: rgb(132,234,236);
+  margin-top: 20px;
+}
+a {
+  color: green ;
+}
