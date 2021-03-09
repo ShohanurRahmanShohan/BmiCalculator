@@ -4,7 +4,8 @@ function cal(){
    var c = hight/12
    var i = c/3.2808399
    var h = i*i
-   var num = weight/h ;
+   var num1 = weight/h ;
+   var num = num1.toFixed(2)
      if (num < 18.5){
        document.getElementById("aw").innerHTML = "Underweight ~"+num + " :     A BMI of less than 18.5 indicates that you are underweight, so you may need to put on some weight. You are recommended to ask your doctor or a dietitian for advice.";
       }
@@ -20,7 +21,8 @@ function cal(){
 }
 function fh(){
   var hi= prompt ("feet : ");
-   var cod = hi*12;
+   var cod1 = hi*12;
+   var cod = cod1.toFixed(2);
   document.getElementById("ff").innerHTML = "~"+ cod + `inc`;
 }
 function r (){
