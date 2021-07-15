@@ -6,16 +6,16 @@ function cal(){
    var Converted_hight = feet_m**2
    var Result = weight/Converted_hight;
      if (Result < 18.5){
-       document.getElementById("aw").innerHTML = "Underweight ~"+num + " :     A BMI of less than 18.5 indicates that you are underweight, so you may need to put on some weight. You are recommended to ask your doctor or a dietitian for advice.";
+       document.getElementById("aw").innerHTML = "Underweight ~"+Result + " :     A BMI of less than 18.5 indicates that you are underweight, so you may need to put on some weight. You are recommended to ask your doctor or a dietitian for advice.";
       }
-      else if (Result >= 18.5 && num <= 24.9  ) {
-         document.getElementById("aw").innerHTML = "Ideal ~"+num + "   :  A BMI of 18.5–24.9 indicates that you are at a healthy weight for your height. By maintaining a healthy weight, you lower your risk of developing serious health problems.";
+      else if (Result >= 18.5 && Result <= 24.9  ) {
+         document.getElementById("aw").innerHTML = "Ideal ~"+Result + "   :  A BMI of 18.5–24.9 indicates that you are at a healthy weight for your height. By maintaining a healthy weight, you lower your risk of developing serious health problems.";
       }
-      else if (Result >= 25 && num <= 29.9 ) {
-          document.getElementById("aw").innerHTML = "Overweight ~" +num + "      : A BMI of 25–29.9 indicates that you are slightly overweight. You may be advised to lose some weight for health reasons. You are recommended to talk to your doctor or a dietitian for advice.";
+      else if (Result >= 25 && Result <= 29.9 ) {
+          document.getElementById("aw").innerHTML = "Overweight ~" +Result+ "      : A BMI of 25–29.9 indicates that you are slightly overweight. You may be advised to lose some weight for health reasons. You are recommended to talk to your doctor or a dietitian for advice.";
       }
       else {
-           document.getElementById("aw").innerHTML ="Ndicatess obesity ~" +num +  "        : A BMI of over 30 indicates that you are heavily overweight. Your health may be at risk if you do not lose weight. You are recommended to talk to your doctor or a dietitian for advice.";
+           document.getElementById("aw").innerHTML ="Ndicatess obesity ~" +Result +  "        : A BMI of over 30 indicates that you are heavily overweight. Your health may be at risk if you do not lose weight. You are recommended to talk to your doctor or a dietitian for advice.";
       }
 }
 function fh(){
